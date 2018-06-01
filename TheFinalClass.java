@@ -22,19 +22,23 @@ class NotSoFinal {
 	// final method
 	final void someFinalMethod() {
 		System.out.println("this is a final method");
+		System.out.println("I'm a final method and I can be overloaded.");
 	}
 
 	// overloaded methods
-	void myOtherMethod(String a) {
+	final void myOtherMethod(String a) {
 		System.out.println("a is: " + a);
+		System.out.println("I'm a final method and I can be overloaded.");
 	}
 
-	void myOtherMethod(String a, String b) {
+	final void myOtherMethod(String a, String b) {
 		System.out.println("a and b are: " + a + b);
+		System.out.println("I'm a final method and I can be overloaded.");
 	}
 
-	void myOtherMethod(int i, char c) {
+	final void myOtherMethod(int i, char c) {
 		System.out.println(i + c);
+		System.out.println("I'm a final method and I can be overloaded.");
 	}
 
 }
